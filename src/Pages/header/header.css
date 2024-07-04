@@ -1,0 +1,160 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 330px;
+    height: 100vh;
+    overflow: auto;
+    background-color: white;
+    border: 1px solid white;
+    z-index: 1000;
+}
+
+.header__center img {
+    width: 208px;
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.line {
+    width: 253px;
+    height: 30px;
+    border-bottom: 1px solid rgb(244, 245, 245);
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+
+.MuiSvgIcon-root {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.7142857142857142rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+}
+
+.header__svg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.header__svg svg {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    color: #CCCCCC;
+}
+
+.svg {
+    display: flex;
+    gap: 20px;
+    height: 52px;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.svg svg {
+    margin-left: 60px;
+}
+
+.svg.clicked {
+    background-color: #f4f5f5;
+}
+
+
+.svg.clicked svg {
+    color: #012dac;
+}
+
+.svg h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: black;
+    font-size: 16px;
+}
+
+
+
+.test__page__center button {
+    display: flex;
+    margin: 0 auto;
+    width: 280px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #012dac;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Museo Sans", "Helvetica Neue", Arial, sans-serif;
+    margin-top: 80px;
+}
+
+.border {
+    width: 260px;
+    height: 230px;
+    background-color: #f4f5f5;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.border h4 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.border h5 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.border h3 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    border-bottom: 1px solid black;
+    width: 200px;
+    margin-top: -20px;
+}
+
+.border h6 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    border-bottom: 1px solid black;
+    width: 60px;
+    margin-top: -10px;
+}
+
+.liner__number {
+    display: flex;
+    gap: 125px;
+    margin-top: 10px;
+}
+
+.liner__number span {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.webname {
+    padding: 0 20px;
+}
+
+.webname p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}

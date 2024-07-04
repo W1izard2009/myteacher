@@ -1,0 +1,7 @@
+.Events {
+    margin-left: 330px;
+    height: 100vh;
+    width: calc(100% - 330px);
+    overflow: auto;
+    background-color: #f4f5f5;
+}
