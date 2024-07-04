@@ -56,19 +56,22 @@
 
 
 .name__border__center {
-    width: 100%;
-    padding: 40px;
-    height: 250px;
+    width: 1888px;
+    padding: 40px 40px 40px 20px;
+    height: 270px;
     background-color: rgb(1, 45, 172);
     color: white;
     border-radius: 4px;
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container1 {
     padding: 0 30px 30px 30px;
-    margin-top: 60px;
     display: flex;
+    margin:  60px auto;
 }
 
 .border__h3 {
@@ -124,24 +127,110 @@
 @media (max-width: 1078px) {
 
     .name__border__center {
-        height: 290px;
+        height: 300px;
     }
 
 }
 
-/* @media (max-width: 950px) {
+@media (max-width: 910px) {
 
     .name__border__center {
-        height: 340px;
+        height: 350px;
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 780px) {
 
+    .name__border__center {
+        height: 380px;
+    }
+
+}
+
+@media (max-width: 760px) {
+    .Dashboard {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .name__border__center {
+        width: 100%;
+        padding: 40px;
+        height: 270px;
+        background-color: rgb(1, 45, 172);
+        color: white;
+        border-radius: 4px;
+        margin-top: 60px;
+    }
+
+    .dashboard__center {
+        box-shadow: none;
+    }
+
+    .dashboard__center {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 748px) {
+    .name__border__center {
+        height: 320px;
+    }
+
+}
+
+@media (max-width: 580px) {
     .name__border__center {
         height: 360px;
     }
 
-} */
+}
 
-/* 750px dan keyin header page hidden bolib tepaga chiqadi */
+@media (max-width: 454px) {
+    .name__border__center {
+        height: 380px;
+    }
+}
+
+@media (max-width: 430px) {
+    .name__border__center {
+        height: 380px;
+    }
+
+    .container1 {
+        padding: 20px 20px 20px 20px;
+    }
+}
+
+@media (max-width: 430px) {
+    .container1 {
+        padding: 0 20px 20px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name__border__center {
+        width: 300px;
+        padding: 30px 30px 30px 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container1 {
+        padding: 0 20px 20px 20px;
+    }
+    .name__border__center {
+        width: 290px;
+        padding: 30px 30px 30px 20px;
+    }
+}
+@media (max-width: 350px) {
+    .container1 {
+        padding: 0 20px 20px 20px;
+    }
+    .name__border__center {
+        width: 290px;
+        padding: 30px 20px 20px 10px;
+    }
+}
